@@ -72,6 +72,7 @@ Unity MCP connects your tools using two components:
     ```
     https://github.com/justinpbarnett/unity-mcp.git?path=/UnityMcpBridge
     ```
+    OR
     ```
     https://github.com/TanushShoor/ThreatSim-Buildverse/tree/main/UnityMcpBridge
     ```
