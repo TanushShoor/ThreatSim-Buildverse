@@ -6,14 +6,12 @@ Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to inte
 
 ---
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/justinpbarnett/unity-mcp/assets/11047284/c279675a-dd58-406b-9613-5b16b5c6bb63"><source media="(prefers-color-scheme: light)" srcset="https://github.com/justinpbarnett/unity-mcp/assets/11047284/b54f891d-961b-4048-a9c4-3af46e2a52fc"><img alt="UnityMCP Workflow" width="100%" style="max-width: 600px; display: block; margin-left: auto; margin-right: auto;"></picture>
+## Key Features 
 
-## Key Features 🚀
-
-*   **🗣️ Natural Language Control:** Instruct your LLM to perform Unity tasks.
-*   **🛠️ Powerful Tools:** Manage assets, scenes, materials, scripts, and editor functions.
-*   **🤖 Automation:** Automate repetitive Unity workflows.
-*   **🧩 Extensible:** Designed to work with various MCP Clients.
+*   **-> Natural Language Control:** Instruct your LLM to perform Unity tasks.
+*   **-> Powerful Tools:** Manage assets, scenes, materials, scripts, and editor functions.
+*   **-> Automation:** Automate repetitive Unity workflows.
+*   **-> Extensible:** Designed to work with various MCP Clients.
 
 <details>
   <summary><strong>Expand for Available Tools...</strong></summary>
@@ -73,6 +71,9 @@ Unity MCP connects your tools using two components:
 4.  Enter:
     ```
     https://github.com/justinpbarnett/unity-mcp.git?path=/UnityMcpBridge
+    ```
+    ```
+    https://github.com/TanushShoor/ThreatSim-Buildverse/tree/main/UnityMcpBridge
     ```
 5.  Click `Add`.
 6. The MCP Server should automatically be installed onto your machine as a result of this process.
@@ -165,7 +166,7 @@ If Auto-Configure fails or you use a different client:
 
 ---
 
-## Usage ▶️
+## How to use? 
 
 1. **Open your Unity Project.** The Unity MCP Bridge (package) should connect automatically. Check status via Window > Unity MCP.
     
@@ -176,20 +177,3 @@ If Auto-Configure fails or you use a different client:
     Example Prompt: `Create a 3D player controller.`
     
 
----
-
-## Contributing 🤝
-
-Help make Unity MCP better!
-
-1. **Fork** the main repository.
-    
-2. **Create a branch** (`feature/your-idea` or `bugfix/your-fix`).
-    
-3. **Make changes.**
-    
-4. **Commit** (feat: Add cool new feature).
-    
-5. **Push** your branch.
-    
-6. **Open a Pull Request** against the master branch.
