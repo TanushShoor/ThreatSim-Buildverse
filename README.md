@@ -1,4 +1,4 @@
-# Unity MCP ✨
+# Unity MCP   
 
 **Connect your Unity Editor to LLMs using the Model Context Protocol.**
 
@@ -31,7 +31,7 @@ Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to inte
 
 ---
 
-## How It Works 🤔
+## Working
 
 Unity MCP connects your tools using two components:
 
@@ -193,57 +193,3 @@ Help make Unity MCP better!
 5. **Push** your branch.
     
 6. **Open a Pull Request** against the master branch.
-    
-
----
-
-## Troubleshooting ❓
-
-<details>  
-<summary><strong>Click to view common issues and fixes...</strong></summary>  
-
-- **Unity Bridge Not Running/Connecting:**
-    
-    - Ensure Unity Editor is open.
-        
-    - Check the status window: Window > Unity MCP.
-        
-    - Restart Unity.
-        
-- **MCP Client Not Connecting / Server Not Starting:**
-    
-    - **Verify Server Path:** Double-check the --directory path in your MCP Client's JSON config. It must exactly match the location where you cloned the UnityMCP repository in Installation Step 1 (e.g., .../Programs/UnityMCP/UnityMcpServer/src).
-        
-    - **Verify uv:** Make sure uv is installed and working (pip show uv).
-        
-    - **Run Manually:** Try running the server directly from the terminal to see errors: `# Navigate to the src directory first! cd /path/to/your/UnityMCP/UnityMcpServer/src uv run server.py`
-        
-    - **Permissions (macOS/Linux):** If you installed the server in a system location like /usr/local/bin, ensure the user running the MCP client has permission to execute uv and access files there. Installing in ~/bin might be easier.
-        
-- **Auto-Configure Failed:**
-    
-    - Use the Manual Configuration steps. Auto-configure might lack permissions to write to the MCP client's config file.
-        
-
-</details>  
-
-Still stuck? [Open an Issue](https://www.google.com/url?sa=E&q=https%3A%2F%2Fgithub.com%2Fjustinpbarnett%2Funity-mcp%2Fissues).
-
----
-
-## License 📜
-
-MIT License. See [LICENSE](https://www.google.com/url?sa=E&q=https%3A%2F%2Fgithub.com%2Fjustinpbarnett%2Funity-mcp%2Fblob%2Fmaster%2FLICENSE) file.
-
----
-
-## Contact 👋
-
-- **X/Twitter:** [@justinpbarnett](https://www.google.com/url?sa=E&q=https%3A%2F%2Fx.com%2Fjustinpbarnett)
-    
-
----
-
-## Acknowledgments 🙏
-
-Thanks to the contributors and the Unity team.
