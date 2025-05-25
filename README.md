@@ -63,7 +63,25 @@ Unity MCP connects your tools using two components:
       *   *(Others may work with manual config)*
 </details>
 
-### Step 1: Install the Unity Package (Bridge)
+
+### Step 1: Install Python
+Install PYTHON 3.12 or newer version from python.org.
+Make sure to add PYTHON to your system's PATH during installation.
+
+
+### Step 2: Install uv
+uv is python package manager that simplifies dependency management. Install it using the command below based on your operating system:
+
+* Mac: brew install uv
+* Windows: powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+      Then, add uv to your PATH:
+      set Path-%USERPROFILE%\. local\bin;%Path%
+* Linux: curl -LsSf https://astral.sh/uv/install.sh | sh
+
+Important: Do not proceed without installing uv.
+
+
+### Step 3: Install the Unity Package (Bridge)
 
 1.  Open your Unity project.
 2.  Go to `Window > Package Manager`.
@@ -75,7 +93,12 @@ Unity MCP connects your tools using two components:
 5.  Click `Add`.
 6. The MCP Server should automatically be installed onto your machine as a result of this process.
 
-### Step 2: Configure Your MCP Client
+### Step 4: Install Claude AI 
+* Go to https://claude.ai/download and download Claude AI according to your system
+* After signing in, go to settings>Developer where you will see "unityMCP running" after step 5.
+
+  
+### Step 5: Configure Your MCP Client
 
 Connect your MCP Client (Claude, Cursor, etc.) to the Python server you installed in Step 1.
 
