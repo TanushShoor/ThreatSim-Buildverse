@@ -3,7 +3,7 @@
 **Connect your Unity Editor to LLMs using the Model Context Protocol.**
 
 Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local **MCP (Model Context Protocol) Client**. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.
-access the website here : https://kaleidoscopic-crisp-db9284.netlify.app
+access the website here : https://unity-mcp.netlify.app/
 ---
 
 ## Key Features 
